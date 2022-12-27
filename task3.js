@@ -1,4 +1,4 @@
-import {data3} from "./data3.js";
+import {data3} from "./inputs/data3.js";
 import _ from "lodash";
 
 const {intersection} = _;
@@ -92,4 +92,4 @@ for (let i = 0; i<backpacks.length-2; i+=3){
 
 
 
-console.log(sum)
+console.log(totalPriorities, sum)

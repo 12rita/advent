@@ -1,4 +1,4 @@
-import {data2} from './data2.js';
+import {data2} from './inputs/data2.js';
 
 const rounds = data2.split('\n');
 
@@ -118,7 +118,6 @@ const table = {
 }
 
 const total3 = rounds.reduce((acc, round) => {
-    // console.log('2: ', acc)
     return acc + table[round]
 
 
@@ -136,12 +135,10 @@ rounds.forEach(round => {
     if (choiceB === 'Z')
         total1 += 6 + shapeScore[wordsToLetters[getWinner(dictionary[choiceA])]]
 
-    // console.log(total1)
-
     total22+=table[round]
 
     if (total1 !== total22){
         console.log(total1, total22)
     }
 })
-console.log(total1, total22)
+console.log(total, total2, total1, total22, total3)

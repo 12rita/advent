@@ -1,4 +1,4 @@
-import {data6} from "./data6.js";
+import {data6} from "./inputs/data6.js";
 
 const letters = data6.split('');
 let answer;

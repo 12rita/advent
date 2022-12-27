@@ -1,4 +1,4 @@
-import {data7} from "./data7.js";
+import {data7} from "./inputs/data7.js";
 
 
 const commands = data7.split('\n');

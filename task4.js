@@ -1,4 +1,4 @@
-import {data4} from "./data4.js";
+import {data4} from "./inputs/data4.js";
 
 
 const works = data4.split('\n');
@@ -37,4 +37,4 @@ const overlapsTotal = works.reduce((acc, work) => {
 }, 0)
 
 
-console.log(overlapsTotal)
+console.log(intersectionTotal, overlapsTotal)

@@ -1,4 +1,4 @@
-import {data} from "./data.js";
+import {data} from "./inputs/data.js";
 
 
 export const elves = data.split('\n\n')

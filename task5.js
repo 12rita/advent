@@ -1,4 +1,4 @@
-import {data5} from "./data5.js";
+import {data5} from "./inputs/data5.js";
 
 
 const stacks = {
